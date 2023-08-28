@@ -553,6 +553,16 @@
 				<key>Replace</key>
 				<data>DCBmNSIQdAQxwP/I</data>
 			</dict>
+			<dict>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Find</key>
+				<data>g34MAHVh</data>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Replace</key>
+				<data>g34MAOth</data>
+			</dict>
 		</array>
 		<key>Vendor</key>
 		<string>AMDZEN</string>
