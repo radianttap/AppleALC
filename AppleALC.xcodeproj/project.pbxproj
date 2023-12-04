@@ -33,6 +33,7 @@
 		CED6C8D8266BC9AF006BA0A9 /* kern_resources.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1C88DDEB1C89EE540003E1BF /* kern_resources.hpp */; };
 		CED6C8D9266BC9AF006BA0A9 /* ALCUserClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCDE25362A8A007704ED /* ALCUserClient.hpp */; };
 		CED6C8DA266BC9AF006BA0A9 /* UserKernelShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ACCCE325362AC2007704ED /* UserKernelShared.h */; };
+		D00EDE952B1E425D00C8B6E1 /* libkmod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D00EDE942B1E424500C8B6E1 /* libkmod.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +161,7 @@
 		CE8DA0892517C489008C44E8 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = ../Lilu/MacKernelSDK/Library/x86_64/libkmod.a; sourceTree = "<group>"; };
 		CED6C8E4266BC9AF006BA0A9 /* AppleALCU.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleALCU.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6C8E8266BCAE5006BA0A9 /* AppleALCU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleALCU-Info.plist"; sourceTree = "<group>"; };
+		D00EDE942B1E424500C8B6E1 /* libkmod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkmod.a; path = usr/lib/libkmod.a; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00EDE952B1E425D00C8B6E1 /* libkmod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +351,7 @@
 		CE8DA0882517C489008C44E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D00EDE942B1E424500C8B6E1 /* libkmod.a */,
 				CE8DA0892517C489008C44E8 /* libkmod.a */,
 			);
 			name = Frameworks;
